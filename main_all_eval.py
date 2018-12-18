@@ -103,7 +103,7 @@ sess.run(tf.global_variables_initializer())
 saver1 = tf.train.Saver(Var2restore)
 saver2 = tf.train.Saver(tf.global_variables())
 writer = tf.summary.FileWriter("logs/loc",  tf.get_default_graph())
-saver2.save(sess,'./ckpt_all/cur.ckpt')
+saver2.restore(sess,'./ckpt_all/cur.ckpt')
 
 im_name_array = []
 with open('TEST') as my_file:
