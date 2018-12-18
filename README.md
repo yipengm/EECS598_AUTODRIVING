@@ -9,3 +9,4 @@ ckpt for task 2:https://drive.google.com/file/d/1qjXooYYS-2Y2QlW7OvRlRPBn1qbvBkY
 Finally ,run main_loc_add_wh.py and main_all.py to train the task1. Run the main_loc_eval_test.py to generate the task 1 result.
 ckpt for task 1:https://drive.google.com/file/d/1y2wD5hkMTsrJgr1v825MIz1zYeEBNARE/view?usp=sharing
 
+You will need to change the directory name in main_loc_eval_test.py and main_loc_eval_test.py to test the ckpt. (You just need to Ctrl F the .restore and change the directory name after that)
